@@ -1,3 +1,4 @@
-let variavel = undefined;
+let variavel;
 console.log(variavel); // saída: undefined
+
 
