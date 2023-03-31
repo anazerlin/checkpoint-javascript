@@ -1,7 +1,7 @@
 let altura = parseFloat(prompt("Digite sua altura em metros: "));
 let peso = parseFloat(prompt("Digite seu peso em quilogramas: "));
 
-let imc = peso / (altura ** 2);
+let imc = peso / (altura ** 2); 
 
 if (imc < 18.5) {
   console.log("você está abaixo do peso ideal.");
@@ -10,3 +10,5 @@ if (imc < 18.5) {
 } else {
   console.log("você está acima do peso ideal.");
 }
+
+//vou me matar hoje as 22:99
