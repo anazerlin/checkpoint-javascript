@@ -6,13 +6,11 @@ console.log(variavel); // saída: undefined
 
 /* EXERCÍCIO 2 */
 
-/*O operador % em JavaScript é conhecido como operador de módulo ou resto da divisão. 
-Ele retorna o resto da divisão de dois números.
-*/
 let num1 = 10;
 let num2 = 3;
 let resultado = num1 % num2;
-console.log(resultado); // saída: 1
+console.log("O resto dos números é:", resultado); // saída: 1
+
 
 /* EXERCÍCIO 3 */
 
@@ -28,7 +26,18 @@ if (imc < 18.5){
     console.log("Parabéns! Você está no seu peso ideal!")
 }
 
+/* EXERCÍCIOS 4 */
 
+let idade = parseInt(prompt("Digite sua idade:"))
+if (idade <= 12){
+    console.log("Você é uma criança.")
+}else if (idade > 60){
+    console.log("Você é um idoso.")
+}else if (idade > 12 && idade <= 19){
+    console.log("Você é um adolescente.")
+}else{
+    console.log("Você é um adulto.")
+}
 
 
 /* EXERCÍCIO 6 */
@@ -40,6 +49,7 @@ let nota4 = parseFloat(prompt("Digite sua quarta nota:"))
 let soma = (nota1 + nota2 + nota3 + nota4)
 let media = soma / 4
 console.log("Sua média é", media)
+
 
 /* EXERCÍCIO 7 */
 
