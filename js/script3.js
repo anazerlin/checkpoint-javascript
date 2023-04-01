@@ -8,5 +8,5 @@ if (imc < 18.5){
 }else if (imc > 24.9){
     console.log("Você está acima do seu peso ideal!")
 }else{
-    console.log("Parabéns! Você está no seu peso ideal!")
+    console.log("Você está no seu peso ideal!")
 }
