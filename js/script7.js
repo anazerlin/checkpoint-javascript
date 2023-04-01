@@ -4,7 +4,7 @@ function aviso()
 }
 
 window.onload= function(){
-    let botaoAviso = document.getElementById("botao");
+    let botaoAviso = document.getElementById("button");
 
     botaoAviso.onclick = function () { 
         aviso() ;
