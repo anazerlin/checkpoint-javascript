@@ -1,6 +1,6 @@
 function aviso()
 {
-    document.body.style.backgroundColor = 'green';
+    document.body.style.backgroundColor = 'grey';
 }
 
 window.onload= function(){
