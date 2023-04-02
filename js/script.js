@@ -60,3 +60,17 @@ window.onload=function(){
         document.body.style.backgroundColor = 'green';
     };
 }
+
+/* EXERCÍCIO 8 */
+
+var divElemento = document.getElementById("pg8")
+
+divElemento.addEventListener("mouseover", ()=>{
+    divElemento.style.backgroundColor = 'pink'
+    document.getElementById("pg8").innerHTML = "O mouse está em cima do conteúdo!";
+})
+
+divElemento.addEventListener("mouseleave", ()=>{
+    divElemento.style.backgroundColor = 'lightgreen'
+    document.getElementById("pg8").innerHTML = "O mouse saiu do conteúdo!";
+})
