@@ -1,5 +1,7 @@
-h1Elemento.addEventListener("click", function(){
+const botaozin = document.getElementById("botão")
+
+botaozin.addEventListener("click", function(onclick){
     
-    h1Elemento.style.backgroundColor = green
+    botaozin.style.backgroundColor = green
 
 })
