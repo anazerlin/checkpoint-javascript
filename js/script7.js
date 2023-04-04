@@ -1,6 +1,6 @@
 const botaozin = document.getElementById("botão")
 
-botaozin.addEventListener("click", function(onclick){
+botaozin.addEventListener(){
     
     botaozin.style.backgroundColor = green
 
